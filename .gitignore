@@ -1,0 +1,44 @@
+# === Python bytecode and cache ===
+__pycache__/
+*.py[cod]
+
+# === Virtual environment ===
+testenv/
+
+
+# === Environment variables ===
+.env
+.env.local
+# .env.production  # uncomment if you keep production env locally
+
+# === Static and media files ===
+staticfiles/
+media/
+/media/
+
+# === Django migration cache ===
+# Keep migration .py files, ignore cache/compiled files only
+*/migrations/__pycache__/
+
+# === VS Code ===
+.vscode/
+
+# === Celery beat schedule ===
+celerybeat-schedule
+celerybeat.pid
+
+# === Log files ===
+*.log
+
+# === Coverage and test cache ===
+.coverage
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+
+# === OS and editor files ===
+.DS_Store
+Thumbs.db
+
+# === Database (ignore local sqlite) ===
+db.sqlite3
