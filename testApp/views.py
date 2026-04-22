@@ -44,12 +44,3 @@ class BookAPIView(APIView):
             serializer.save()
             return custom201("Book created successfully",serializer.data)
         return custom400("Failed to create book",serializer.errors)
-    
-    
-#anto
-
-#Messi
-
-#Barcelona 
-
-#Cherry pick for dev branch
